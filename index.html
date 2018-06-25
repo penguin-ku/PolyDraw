@@ -40,7 +40,17 @@
           <h1>PolyDraw</h1>
           
             <p>PolyDraw is a free 3D polygonal modeller, for creating or modifying 3D objects using a mesh of 3D points and parametric NURBS Curves .Exports and imports to over 40 formats including WebVR and 3D Printing.</p>
-            <p><a href="https://dl.orangedox.com/YYR2ih46hcVPtlG8lq?dl=1" class="buttonlink">Download</a> <a href="https://github.com/ptsource/PolyDraw" class="buttonlink">Learn More</a></p>
+            <p>
+            <a href="https://dl.orangedox.com/YYR2ih46hcVPtlG8lq?dl=1" class="buttonlink">Download</a> 
+            <a href="https://github.com/ptsource/PolyDraw" class="buttonlink">Learn More</a>
+             <button id="paypaldonation" class="ClassyPaypal-button"
+                                            data-business="email@ptsource.eu"
+                                            data-item_name="Donation"
+                                            data-amount="1.00"
+                                            data-quantity="1"
+                                            data-currency_code="EUR">Donate 1 &euro;
+                       </button>
+	    </p>
         </div>
         <div class="grid_8 rightfloat">
 
@@ -133,6 +143,7 @@
     </div>
 </footer>
 <script src="js/javascript.js"></script>
+<script>$(document).ready(function() {$('#paypaldonation').ClassyPaypal({type: 'buynow',style: 'default'});});</script>
 <img style="display:none;" src="//webstats.ptsource.eu/github-polydraw.gif" width="1" height="1" border="0">
 </body>
 </html>
